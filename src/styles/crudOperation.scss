@@ -1,0 +1,38 @@
+@import './goblal.scss';
+
+.crudOperation{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    max-width: 300px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 20vh;
+    &-button{
+        color: $TextColorSecundary;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        width: 10rem;
+        justify-content: space-evenly;
+        font-size: 1rem;
+        box-shadow: 0 0 10px 1px rgba($Verydarkblue,0.5);
+        &-icon{
+            width: 1.5rem;
+            height: 1.5rem;
+            color: $TextColorSecundary;
+            // background: $TextColorSecundary;
+        }
+    }
+    &-new{
+        background-color: $Limegreenexercise;
+    }
+    &-show{
+        
+        background-color: $TextColorPrimary;
+    }
+}

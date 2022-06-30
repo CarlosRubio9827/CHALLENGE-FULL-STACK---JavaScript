@@ -1,0 +1,45 @@
+@import './goblal.scss';
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    // top: 20rem;
+    background-color: $Verydarkblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 0;
+    &-author{
+        color: $TextColorSecundary;
+        font-weight: 300;
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 2rem;
+        & span{
+            display: block;
+            color: $TextColorSecundary;
+        }
+        & a{
+            color: $TextColorPrimary;
+            font-weight: 700;
+            text-decoration: none;
+        }
+    }
+    &-social{
+        display: flex;
+        flex-direction: row;
+        width: 70px;
+        justify-content: space-between;
+        & li{
+            & a{
+                & .footer-icon{
+                    color: $TextColorSecundary;
+                    width: 2.8rem;
+                    height: 2.8rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@import './goblal.scss';
+
+.header{
+    width: 100vw;
+    height: 10vh;
+    background-color: $Verydarkblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &-figure{
+        width: 100px;
+        &-img{
+            width: 100%;
+        }
+    }
+    &-title{
+        font-size: 1rem;
+        color: $TextColorPrimary;
+    }
+}
